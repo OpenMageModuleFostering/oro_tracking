@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package>
+    <name>Oro_Tracking</name>
+    <version>0.1.2</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL 3.0)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Oro Tracking helps you to better understand your customers by tracking user behavior within your Magento Store and collecting it in OroCRM.</summary>
+    <description>OroCRM is the Open Source CRM for commerce. Its analytic engine allows you to collect user behavior data from websites, and its built-in reporting and segmentation tools provide the variety of ways to utilize the data in order to better understand your customers and improve marketing and sales performance.&#xD;
+&#xD;
+This extension adds the pre-configured tracking script to your Magento Store. This script allows out-of-the-box collection of the following data:&#xD;
+ - Page views&#xD;
+ - Registration of new users&#xD;
+ - Items being added to cart&#xD;
+ - Start of order checkout&#xD;
+ - Successful order placement&#xD;
+&#xD;
+All these events will be recorded in OroCRM with connection to customer identity, except for guest customers.</description>
+    <notes>Changed extension stability to "stable"</notes>
+    <authors><author><name>Oro, Inc</name><user>orocrm</user><email>info@orocrm.com</email></author></authors>
+    <date>2015-01-19</date>
+    <time>15:33:37</time>
+    <contents><target name="magecommunity"><dir name="Oro"><dir name="Tracking"><dir><dir name="Block"><file name="Tracking.php" hash="34641a5031fd97c69cfe65afefff7325"/></dir><dir name="Exception"><file name="ProtocolMismatchException.php" hash="f15069a10465d1206735adcb90a781fd"/></dir><dir name="Helper"><file name="Data.php" hash="d5eea1d7f24895b2f5216cde4f408b91"/></dir><dir name="Model"><file name="Observer.php" hash="457309c782423192a8498902051a8ac6"/></dir><dir name="etc"><file name="adminhtml.xml" hash="d63879b47cf8518a1f280b26b7d3796d"/><file name="config.xml" hash="2481d281d63ca96492e930d2c57f4ad1"/><file name="system.xml" hash="e74a55c3856d49ca16ddb05178c940a5"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Oro_Tracking.xml" hash="e3db63e3431c4b13bfe485fea9fe1649"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="orotracking.xml" hash="e9a65be3aea707e379b4dd05b188bfe2"/></dir><dir name="template"><dir name="orotracking"><file name="tracking.phtml" hash="c20f7f988d2f9b46f351cd001f5f76ed"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.13</min><max>5.6.0</max></php></required></dependencies>
+</package>
