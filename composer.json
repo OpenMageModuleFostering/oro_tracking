@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Oro_Tracking",
+    "name": "openmage-module-fostering\/oro_tracking",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL-3.0)",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Oro Tracking helps you to better understand your customers by tracking user behavior within your Magento Store and collecting it in OroCRM.",
     "authors": [
